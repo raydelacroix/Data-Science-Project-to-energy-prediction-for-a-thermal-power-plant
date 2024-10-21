@@ -1,6 +1,6 @@
 # Projet de Prédiction d'Énergie pour une Centrale Thermique 🔥⚡
 
-Ce projet vise à prédire la consommation d'énergie d'une centrale thermique en utilisant des modèles avancés tels que LSTM et XGBoost. Il intègre diverses technologies pour la collecte, l'affichage et la notification des données.
+Ce projet vise à prédire la consommation d'énergie d'une centrale thermique en utilisant des modèles avancés tels que LSTM et XGBoost. Il intègre diverses technologies pour la collecte, l'affichage et la notification en temps réel sur chaque équipement intervenant dans le cycle de ranking sur le site qui envois des notification en cas de baise de certain taux favorable a la produciton de l'etricité.
 
 ## Technologies Utilisées 🛠️
 - **Langage** : Python
