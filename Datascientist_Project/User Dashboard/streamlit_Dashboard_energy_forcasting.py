@@ -19,9 +19,9 @@ import time
 
 # Configuration InfluxDB
 INFLUXDB_URL = "http://localhost:8086"
-INFLUXDB_TOKEN = "L1kzKyVVGvfnJdV1RDoyDXHZe1OXFuOhbShcz2SlqJ7J4ehWCR6jJtV1uul-vwiZtNPYm_XzZ0eI-0tAmoON1w=="
-INFLUXDB_ORG = "Projet"
-INFLUXDB_BUCKET = "DATA_STREAMING_OPC_UA"
+INFLUXDB_TOKEN = "**************"
+INFLUXDB_ORG = "*********"
+INFLUXDB_BUCKET = "**********"
 
 # Configuration Email et Pushbullet
 SENDER_EMAIL = '***********'
