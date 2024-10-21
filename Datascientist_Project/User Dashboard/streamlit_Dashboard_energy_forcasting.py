@@ -24,8 +24,8 @@ INFLUXDB_ORG = "Projet"
 INFLUXDB_BUCKET = "DATA_STREAMING_OPC_UA"
 
 # Configuration Email et Pushbullet
-SENDER_EMAIL = 'jorfertilzertalerteocp@gmail.com'
-SENDER_PASSWORD = 'sfxm apop xqjj glbg'
+SENDER_EMAIL = '***********'
+SENDER_PASSWORD = '**********'
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 
@@ -211,7 +211,7 @@ def main():
         )
 
         if model_option == 'XGBoost':
-            model_path = 'C:/Users/user/Desktop/ProjetStage Datascience OCP Model & Dashbord Raymond/Back-End/Models/XGBOOST_h_power_model_predicted.json'
+            model_path = 'chemin/XGBOOST_h_power_model_predicted.json'
             try:
                 model = load_xgboost_model(model_path)
                 st.success("Modèle XGBoost chargé avec succès")
@@ -219,7 +219,7 @@ def main():
                 st.error(f"Une erreur est survenue lors du chargement du modèle XGBoost : {str(e)}")
                 st.stop()
         else:
-            model_path = 'C:/Users/user/Desktop/ProjetStage Datascience OCP Model & Dashbord Raymond/Back-End/Models/LSTM_h_power_model_predicted.h5'
+            model_path = 'chemin/LSTM_h_power_model_predicted.h5'
             try:
                 model = load_model(model_path)
                 st.success("Modèle LSTM chargé avec succès")
